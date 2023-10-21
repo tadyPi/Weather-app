@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="tadypi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather app | tadypi</title>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Load of pixels</h1>
+        <h3>design and development</h3>
+    </div>
+    <div class="container">
+        <div class="search-box">
+            <i class='bx bxs-map'></i>
+            <input type="text" placeholder="enter your location">
+            <button class="bx bx-search"></button>
+        </div>
+
+        <p class="city-hide">city hide</p>
+
+        <div class="weather-box">
+            <div class="box">
+                <div class="info-weather">
+                    <div class="weather">
+                        <img src="/clouds.jpg" alt="cloudy-icon">
+                        <p class="temperature">0°C<span></span></p>
+                        <p class="description">cloudy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i class='bx bx-water'></i>
+                <div class="text">
+                    <div class="info-humidity">
+                        <span>0%</span>
+                    </div>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class='bx bx-wind'></i>
+                <div class="text">
+                    <div class="info-wind">
+                        <span>0km/h</span>
+                    </div>
+                    <p>Wind speed</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="not-found">
+            <div class="box">
+                <img src="/404-not-found.jpg" alt="404-not-found">
+                <p>Oops! Location not found</p>
+            </div>
+        </div>
+        <div class="LOP">load of pixels</div>
+    </div>
+
+
+
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
